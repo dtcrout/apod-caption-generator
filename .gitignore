@@ -4,7 +4,7 @@
 */*/.DS_Store
 
 # Credentials
-credentials.json
+app/resources/config
 
 # Images
 app/resources/images/*
