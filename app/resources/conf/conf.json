@@ -1,4 +1,5 @@
 {
+  "apod_api_url": "https://api.nasa.gov/planetary/apod",
   "metadata_dir": "resources/metadata",
   "download_dir": "resources/images"
 }
