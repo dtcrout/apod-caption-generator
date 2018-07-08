@@ -8,3 +8,8 @@ app/resources/config
 app/resources/conf/conf.json
 app/resources/images/*
 app/resources/corpus.pkl
+
+# Other
+__pycache__
+*/__pycache__
+*/*/__pycache__
