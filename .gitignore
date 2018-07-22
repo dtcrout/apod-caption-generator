@@ -8,3 +8,9 @@ credentials.json
 
 # Images
 app/resources/images/*
+
+# Features
+app/resources/features/*
+
+# IPython Notebook Checkpoints
+app/src/.ipynb_checkpoints/
