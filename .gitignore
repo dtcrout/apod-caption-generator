@@ -3,10 +3,9 @@
 */.DS_Store
 */*/.DS_Store
 
-# Credentials
-credentials.json
-
-# Images
+# Resources
+app/resources/config
+app/resources/conf/conf.json
 app/resources/images/*
 
 # Features
