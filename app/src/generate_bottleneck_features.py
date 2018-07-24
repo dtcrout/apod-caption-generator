@@ -11,7 +11,8 @@ from keras.applications.vgg16 import preprocess_input
 from keras.preprocessing import image
 from keras.preprocessing.image import ImageDataGenerator
 
-parser = argparse.ArgumentParser(description='Download APID dataset images.')
+parser = argparse.ArgumentParser(description='Generate bottleneck features from'
+                                ' APOD images.')
 
 parser.add_argument('conf',
                     type=argparse.FileType('r'),
@@ -19,7 +20,7 @@ parser.add_argument('conf',
                     help='path to configuration file')
 
 def main():
-    """Reads the data and saves the images."""
+    """Saves bottleneck features for all images using the VGG16 pre-trained CNN model."""
     # Read configuration file
     conf = None
     args = parser.parse_args()
