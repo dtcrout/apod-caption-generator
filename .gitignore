@@ -14,3 +14,5 @@ app/resources/features/*
 
 # IPython Notebook Checkpoints
 app/src/.ipynb_checkpoints/
+
+app/resources/corpus.pkl
