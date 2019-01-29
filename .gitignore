@@ -7,4 +7,11 @@
 app/resources/config
 app/resources/conf/conf.json
 app/resources/images/*
+
+# Features
+app/resources/features/*
+
+# IPython Notebook Checkpoints
+app/src/.ipynb_checkpoints/
+
 app/resources/corpus.pkl
